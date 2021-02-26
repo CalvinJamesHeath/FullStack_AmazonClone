@@ -1,3 +1,5 @@
+# Amazon Clone full E-commerce with User Login, Add and Remove to basket functionality, Subtotal Price and Sign Out! 
+## Done with React-Context-API, Material-ui and Firebase.
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home.jpg?raw=true)
 
 
