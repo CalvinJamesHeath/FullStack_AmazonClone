@@ -3,8 +3,11 @@
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home.jpg?raw=true)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home1.jpg)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home3.jpg)
-![]
-![]
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/checkout.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/signIn.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/user.jpg)
+![]()
+
 
 
 
