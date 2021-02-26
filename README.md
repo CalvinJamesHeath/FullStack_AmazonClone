@@ -2,7 +2,7 @@
 ## Done with React-Context-API, Material-ui and Firebase.
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home.jpg?raw=true)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home1.jpg)
-![]
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home3.jpg)
 ![]
 ![]
 
