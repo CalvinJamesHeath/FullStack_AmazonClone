@@ -19,6 +19,7 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .product__info {
@@ -29,7 +30,7 @@
 .product__price {
   margin-top: 5px;
 }
-
+/* 
 .product > button {
   background-color: #cd9900;
   border: 1px solid;
@@ -38,6 +39,11 @@
   border-color: #a88734 #9c7e31 #846a29;
   padding: 5px;
   cursor: pointer;
+} */
+
+.star {
+  margin-bottom: 10px;
+  z-index: 100;
 }
 
 .product > button:hover {
@@ -47,3 +53,117 @@
 .product__rating {
   display: flex;
 }
+
+.cart-button {
+  position: relative;
+  padding: 20px;
+  width: 200px;
+  height: 10px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #cd9900;
+
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+.cart-button:hover {
+  background-color: #35269b;
+}
+.cart-button:active {
+  transform: scale(0.9);
+}
+
+.cart-button .fa-shopping-cart {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: -10%;
+  font-size: 2em;
+  transform: translate(-50%, -50%);
+}
+.cart-button .fa-box {
+  position: absolute;
+  z-index: 3;
+  top: -20%;
+  left: 52%;
+  font-size: 1.2em;
+  transform: translate(-50%, -50%);
+}
+.cart-button span {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  font-size: 1.2em;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.cart-button span.add-to-cart {
+  opacity: 1;
+}
+.cart-button span.added {
+  opacity: 0;
+}
+
+.cart-button.clicked .fa-shopping-cart {
+  animation: cart 1.5s ease-in-out forwards;
+}
+.cart-button.clicked .fa-box {
+  animation: box 1.5s ease-in-out forwards;
+}
+.cart-button.clicked span.add-to-cart {
+  animation: txt1 1.5s ease-in-out forwards;
+}
+.cart-button.clicked span.added {
+  animation: txt2 0.5s ease-in-out forwards;
+}
+
+@keyframes cart {
+  0% {
+    left: -10%;
+  }
+  40%,
+  60% {
+    left: 50%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+@keyframes box {
+  0%,
+  40% {
+    top: -20%;
+  }
+  60% {
+    top: 40%;
+    left: 52%;
+  }
+  100% {
+    top: 40%;
+    left: 112%;
+  }
+}
+@keyframes txt1 {
+  0% {
+    opacity: 1;
+  }
+  20%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes txt2 {
+  0%,
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* other button */

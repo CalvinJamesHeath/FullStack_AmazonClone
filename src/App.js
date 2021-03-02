@@ -8,12 +8,20 @@ import Checkout from "./components/Checkout/Checkout";
 import Login from "./components/Login/Login";
 import { auth } from "./Firebase/Firebase";
 import { useStateValue } from "./StateProvider/StateProvider";
+import Payment from "./components/Payment/Payment";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
+import Orders from "./components/Orders/Orders";
+
+const promise = loadStripe(
+  "pk_test_51IPaoDDlp973cFVTjaILiwOViCWACphVZGskINoemOURgfHGmY4w2NLzBHGdrlQwZfd4NPJhdggSDHxG3FQTJCEc00XDFPnseZ"
+);
 
 function App() {
   const [{}, dispatch] = useStateValue();
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
-      console.log("user is =>", authUser);
+      // console.log("user is =>", authUser);
 
       if (authUser) {
         // userLogged in / or the user was logged in.
@@ -36,17 +44,24 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/login">
-            {/* <Login /> */}
             <Login />
+          </Route>
+          <Route path="/orders">
+            <Navbar />
+            <Orders />
           </Route>
           <Route path="/checkout">
             <Navbar />
-
             <Checkout />
+          </Route>
+          <Route path="/payment">
+            <Navbar />
+            <Elements stripe={promise}>
+              <Payment />
+            </Elements>
           </Route>
           <Route path="/">
             <Navbar />
-
             <Home />
           </Route>
         </Switch>

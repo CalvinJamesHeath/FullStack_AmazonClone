@@ -36,8 +36,9 @@
 }
 
 .header__searchIcon:hover {
-  background-color: #cd9042;
+  /* background-color: #cd9042; */
   color: white;
+  cursor: pointer;
 }
 
 .header__nav {

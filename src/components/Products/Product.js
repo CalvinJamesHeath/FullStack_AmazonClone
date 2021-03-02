@@ -19,6 +19,17 @@ function Product({ id, title, img, price, rating }) {
     });
   };
 
+  const cartButtons = document.querySelectorAll(".cart-button");
+
+  cartButtons.forEach((button) => {
+    button.addEventListener("click", cartClick);
+  });
+
+  function cartClick() {
+    let button = this;
+    button.classList.add("clicked");
+  }
+
   return (
     <div className="product">
       <div className="product__info">
@@ -31,12 +42,19 @@ function Product({ id, title, img, price, rating }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>⭐</p>
+              <p className="star">⭐</p>
             ))}
         </div>
       </div>
       <img src={img} alt="" />
-      <button onClick={addToBasket}>Add to Basket</button>
+      {/* <button onClick={addToBasket}>Add to Basket</button> */}
+
+      <button className="cart-button" onClick={addToBasket}>
+        <span className="add-to-cart">Add to cart</span>
+        <span className="added">Added</span>
+        <i className="fas fa-shopping-cart"></i>
+        <i className="fas fa-box"></i>
+      </button>
     </div>
   );
 }
