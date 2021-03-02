@@ -1,3 +1,32 @@
+# [Deployed Link!](https://clone-e21b2.web.app/)
+# Amazon Clone full E-commerce with User Login, Add and Remove to basket functionality, Subtotal Price and Sign Out so far! 
+## Done with React-Context-API, Material-ui and Firebase. Web only!
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home.jpg?raw=true)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home1.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home3.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/checkout.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/signIn.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/user.jpg)
+![]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
