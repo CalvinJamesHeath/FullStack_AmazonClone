@@ -1,6 +1,6 @@
 # [Deployed Link!](https://clone-e21b2.web.app/)
-# Amazon Clone full E-commerce with User Login, Add and Remove to basket functionality, Subtotal Price and Sign Out so far! 
-## Done with React-Context-API, Material-ui and Firebase. Web only!
+# FULLSTACK Amazon Clone Complete E-commerce with User Login, Add and Remove to basket functionality, Subtotal Price and Sign Out, Checkout, Review Orders and BUY PRODUCTS REALTIME DATABASE AND PAYMENTS! 
+## Done with React-Context-API, Material-ui and Firebase, Cloud-FireStore, Stripe. Web only!
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home.jpg?raw=true)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home1.jpg)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home2.jpg)
