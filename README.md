@@ -3,11 +3,20 @@
 ## Done with React-Context-API, Material-ui and Firebase. Web only!
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home.jpg?raw=true)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home1.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home2.jpg)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/home3.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/stripe.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/firebase.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/checkout1.jpg)
+
+
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/orders.jpg)
+![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/orderTotal.jpg)
+
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/checkout.jpg)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/signIn.jpg)
 ![](https://github.com/CalvinJamesHeath/FullStack_AmazonClone/blob/main/Images/user.jpg)
-![]()
+
 
 
 
