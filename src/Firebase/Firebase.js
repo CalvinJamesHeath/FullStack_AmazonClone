@@ -7,6 +7,7 @@ const firebaseConfig = {
   storageBucket: "clone-e21b2.appspot.com",
   messagingSenderId: "166566553862",
   measurementId: "G-S4FSVXCP5P",
+//   api key
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
